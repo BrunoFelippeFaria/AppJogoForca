@@ -5,7 +5,35 @@
 
     <ScrollView>
         <VerticalStackLayout>
-            
+            <Image x:Name="forcaImg"
+                Source="forca.png"    
+                WidthRequest="250"
+                HorizontalOptions="Center"
+            />
+
+            <Label x:Name="temaLabel"
+                FontSize="Title"
+                FontAttributes="Bold"
+                TextTransform="Uppercase"
+                HorizontalOptions="Center"
+                Margin="-40, 20, 0, 20"
+            />           
+
+            <Label x:Name="PalavraLabel"
+                Text="_ _ _ _ _ _ _ _ _ _"
+                FontSize="Title"
+                HorizontalOptions="Center"
+                Margin="-40, 0, 0, 40"
+                TextTransform="Uppercase"
+            />
+
+            <FlexLayout x:Name="tecladoFlex"
+                MaximumWidthRequest="400"
+                Wrap="Wrap"
+                Padding="20"
+            >
+            </FlexLayout>
+
         </VerticalStackLayout>
     </ScrollView>
 

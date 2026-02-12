@@ -21,10 +21,10 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>AppJogoForca</ApplicationTitle>
+		<ApplicationTitle>App Jogo Da Forca</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.appjogoforca</ApplicationId>
+		<ApplicationId>com.bruno.appjogoforca</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
